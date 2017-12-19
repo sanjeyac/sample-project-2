@@ -42,7 +42,12 @@ In code is written in this way:
 
 - A Web controller exposes Product as a ProductDto
 - A Product Service persists and restrives data through a Product Repository
-- A ProductAdapter converts an Entity to a Dto and a Dto to an Entity
+- A ProductAdapter converts an Entity to a Dto and a DTO to an Entity
 
+Note: 	Only the service layer uses the domain models.
+	Service exposes data only as DTO objects, in this way controller 
+	can be decuopled from domain objects 
+	and DTO can be created based on presentation layer needs
+	
 
 
