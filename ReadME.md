@@ -24,7 +24,7 @@ For learning puposes package are name by layers and code is design in this way:
 	Data     |  |   Presentation   |
 	used as  |  |                  |
 	Dto      |  +------------------+
-		 |
+	Objects	 |
 		 v  +------------------+
 		    |                  |
 	+-----------+      Service     +---------+
@@ -34,7 +34,7 @@ For learning puposes package are name by layers and code is design in this way:
 	Data     |  +------------------+
 	used as  |  |                  |
 	Domain   |  |      Domain      |
-		 |  |                  |
+	Objects	 |  |                  |
 		 v  +------------------+
 
 
