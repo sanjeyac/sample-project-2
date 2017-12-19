@@ -1,7 +1,5 @@
-This is a sample project made to understand some concept of DDD in Spring Web Application
-
-The purpose of this project is too put together several tips and tricks
-a simple coding style to make the code easy to read and extend.
+This is a sample project made to understand some concept of DDD in a Spring Web Application
+The purpose of this project is too put together several tips, patterns and coding style to make the code easy to read and extend.
 
 An order has several OrderItems.
 Each OrderItem has a Product, a cost and a quantity.
