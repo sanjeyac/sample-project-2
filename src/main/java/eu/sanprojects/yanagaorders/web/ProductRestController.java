@@ -26,10 +26,11 @@ public class ProductRestController {
     @GetMapping(URL)
     public ResponseEntity getAll() {
         List<ProductDto> products = productService.getAll();
-        if (products == null || products.isEmpty()) {
+        if (products.isEmpty()) {
             return ResponseEntity.notFound().build();
+        }else{
+            return ResponseEntity.ok(products);
         }
-        return ResponseEntity.ok(products);
     }
     
     @PostMapping(URL)
